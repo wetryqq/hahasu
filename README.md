@@ -1,75 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+h1, h2, h3 {
+    text-align: center;
+    color: #fff; /* Белый текст */
+    margin-bottom: 20px;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ветриловехасу</title>
-    <style>
-        /* Стили для страницы */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
-        }
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #fff;
+}
 
-        /* Заголовок */
-        header {
-            background: linear-gradient(90deg, #6a11cb, #2575fc);
-            color: #fff;
-            padding: 20px 10px;
-            text-align: center;
-        }
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
 
-        header h1 {
-            margin: 0;
-        }
+.btn:hover {
+    background: #feb47b;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 
-        /* Навигация */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            margin: 10px 0 0;
-        }
+/* Контейнер для центра текста */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        /* Ссылка на видео */
-        .video-link {
-            display: block;
-            text-align: center;
-            margin: 20px auto;
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #2575fc;
-            text-decoration: none;
-        }
-
-        .video-link:hover {
-            color: #6a11cb;
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
     <header>
         <h1>ветриловехасу</h1>
     </header>
